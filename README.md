@@ -2,17 +2,10 @@
 This project is open source and available under the **BSD License**. Meaning you can copy and commercialise this. :-)*
 
 
-# **Lending Club Applicant Loan Worthiness Analysis**
-> A Data set of Loan Applicants in the organisation Lending Club has been presented. Our target is to make recommendations to the organisation, as to which **applicants are:**
+# **Advanced Regression Assignment**
 
->1. **Worth Discharging Loan.**
->2. **Not Worth Discharging Loan.**
 
-Two Greatest Sources of Loss for Any Lending Organisations are Closely Related but Different Reasons:
-1. **Rejecting Loan Of The Applicant That Could Have Paid.**
-2. **Accepting Loan Of The Applicant That Fails To Pay.**
-
-Both these reasons cause huge losses to the lending company. Therefore, the they need to be optimised as much as possible. 
+Surprise Housing, a real estate firm based in the United States, has made the decision to expand into the Australian market. To assist with this venture, the company has gathered a dataset of house sales in Australia and is using data analytics to identify properties that can be purchased at a lower price and then resold for a profit. In order to effectively evaluate potential investments, the company has tasked you with creating a regression model that utilizes regularization techniques to accurately predict the value of these properties. The model will also allow the company to determine which variables are most significant in influencing the price of a house and to gauge the effectiveness.
 
 ## **Table of Contents**
 * [General Info](#general-information)
@@ -23,60 +16,18 @@ Both these reasons cause huge losses to the lending company. Therefore, the they
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## **General Information and Background**
-Humans are visual learners, our senses to decipher an image far supercedes our ability to decipher text. Even as we are reading very difficult book, essentially, as we read it, in our brains we create a visual image of what is described in the text. 
+Surprise Housing, a real estate firm based in the United States, has made the decision to expand into the Australian market. To assist with this venture, the company has gathered a dataset of house sales in Australia and is using data analytics to identify properties that can be purchased at a lower price and then resold for a profit. In order to effectively evaluate potential investments, the company has tasked you with creating a regression model that utilizes regularization techniques to accurately predict the value of these properties. The model will also allow the company to determine which variables are most significant in influencing the price of a house and to gauge the effectiveness of these variables in predicting the price.
 
-Therefore, as we read text, it can be said that we are essentially interpreting it into a form our brain understands, "visuals and audio".
-
-Thats exactly what we are doing over here. A 34 megabyte large CSV txt datasheet has been given to us, our job is to turn it into picture for our client. 
-
-We take hours and days to choose the right graphs and visual depictions, relevant so that nothing important gets excluded, nothing unwanted gets included. So our client is now able to look at these images (graphs basically) for a few minutes and hours and make a decision. 
-
-We essentially are turning this massive 34 megabyte text information into a few understandable graphs, that are based on it and accurate. 
-
-This is whole technique can be called "Data Analysis".
-
-## **Business Problem**  
- We are applying this incredible text-to-graph technique using different Python Based Libraries to turn a dataset of a large number of people that have applied for a loan with our client "Lending Club".
-
- Now it is our job to **make sure they pick the right applicants to discharge loans to.**
-
-### **This is how we achieve it.**
-We are going to use number crunching libraries written in C for python, to crunch the numbers into operable dataTypes, and them feed them into libraries written to turning them into Graphs.
-
-Once the numbers are turned into graphs, we will have a very good understanding of correlation of different factors with loan repayment rate.
-
-Using this Information we will give the recommended actions on the applicants to our cient.
-
-## Information about Dataset
-Very generously a raw, well labeled datasheet of applicants, in a csv format has been given to us by our client. This made our task very easy. But still, a lot of operations need to be conducted on the datasheet before running an Analysis on it, otherwise our results maybe wildly skewed. This would destroy the business decisions, as they are to be based on the recommendation generated as a result of analysis done on the input data.
-
-And this input data, is what we need to prepare the from the dataset called, **"loan.csv"** given to us by our client lending club, and an accompanying **"Data_Dictionary.xlsv"** to be used as a reference by us for understanding the meaning of different column names in loan.csv. 
-
->This process is called **Data cleaning.**
-
- A variety of automated and manual operations, and different softwares like spreadsheets, apart from just python based libraries, can be used to achieve this.
-
- Which is exactly what we have done.
-
-The presentation of data should be filtered to a point where by even a child can understand it. At the same time, we shouldn't forget what einstein said, "Make everything as simple as possible, but not simpler"; therefore, in the name of presentability, **the datapoints and analysis can't be skewed to the point of tampering the key values.**
 
 
 ## **Conclusions**
 Final File Structure,
 
-**1. Group_Facilitator_AbhinavTyagi.ipynb**
-> Containing Jupyter-Lab With Final Outputs
+**2. Assignment - Advanced Regression-Abhinav.ipynb**
+> iPython Notebook
 
-**2. Group_Facilitator_AbhinavTyagi.py**
-> Final Jupyter-Lab Notebook Converted to machine executable Python Script.
-
-**3. Group_Facilitator_AbhinavTyagi.pptx**
-> Presentation in Microsoft PPTX format
-
-**4. Group_Facilitator_AbhinavTyagi.pdf**
-> Same Presentation in Adobe PDF format.
 <br>
-loan.csv is in dataset/ directory
+train.csv is in dataset/ directory
 
 
 
@@ -169,25 +120,14 @@ Git/Github. (*All other operations and development done on local machine, no clo
 
 Created by [@abhinavt0681] - feel free to contact me!
 
-Wouldn't be possible without my very helpful and experienced partner in this Project, **Vinay Pai**. 
 
 
-## Project Undertaken  as a part of Upgrad Case Study By
-**Facilitator**<br> 
+## Project Undertaken  as a part of Upgrad Case Study By:<br> 
 ```python
 Abhinav Tyagi 
 abhinav@vayubiotech.com 
 +91-9755504588          
-```       
-
-**Team Member:**                  
-```python
- 
-Vinay Vijaykumar Pai 
-vinaypai1977@gmail.com 
-+91-8861039039 
-
-```
+```      
 
 
 **Thanks Upgrad and Lending Club to Give us the Opportunity To Perform this Analysis.**
